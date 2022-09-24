@@ -24,22 +24,22 @@
                     <h1>*FJTR*</h1>
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
-                            <li><a href="#sobremi">SOBRE MI</a></li>
-                            <li><a href="#servicios">SERVICIOS</a></li>
-                            <li><a href="#skills">HABILIDADES</a></li>
-                            <li><a href="#portafolio">PORTAFOLIO</a></li>
-                            <li><a href="#contacto">CONTACTO</a></li>
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                         </ul>
                     </nav>
 
                     <!--Iconos del menu responsive-->
-                    <div id="icono-nav">
+                    <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
 
                     <!--Iconos de redes sociales-->
-                    <div id="redes">
+                    <div class="redes">
                         <a href="https://www.linkedin.com/in/franciscotulkn-li-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://twitter.com/FranciscoTulkn" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                         <a href="https://github.com/FranciscoTulkn" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -140,8 +140,8 @@
         </div>
     </section>
     
-    <!--SECCION SERVICIOS-->
-<div class="contenedor-skills" id="skills">
+    <!--SECCION HABILIDADES-->
+    <div class="contenedor-skills" id="skills">
     <h3>HABILIDADES</h3>
 
     <!--habilidad 1-->
@@ -209,7 +209,7 @@
             <div id="csharp" class="barra-progreso6"></div>
         </div>
     </div>
-</div>
+    </div>
     
     <!--SECCION PORTAFOLIO-->
     <section id="portafolio">
@@ -299,6 +299,6 @@
             <a href="https://github.com/FranciscoTulkn" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
     </footer>
-
+    <script src="Script.js"></script>
 </body>
 </html>
